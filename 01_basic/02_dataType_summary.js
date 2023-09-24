@@ -39,4 +39,17 @@ const myFunction= function(){
     console.log("inside function");
 }
 
-console.log(typeof bigIntNumber);
+//console.log(typeof bigIntNumber);
+
+
+// ################ Memory Type #########
+
+// Stack (Primitive Type), Heap (Non Primitive)
+// In case of Stack Memory we get a copy of Variable, change done in copy not original
+// In case of Heap we get Reference => change will reflect in Actual
+
+let myName = "Simarjit";
+let anotherName = myName;
+anotherName = "Singh";
+console.log(myName);
+console.log(anotherName);
