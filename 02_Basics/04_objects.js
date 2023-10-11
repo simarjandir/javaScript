@@ -23,5 +23,16 @@ const obj2={3:"a", 4:"b"};
 //const obj3=Object.assign({},obj1,obj2)
 //const obj3={...obj1,...obj2};
 //console.log(obj3);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+
+const course={
+    courseName : "Jacascript",
+    price : "5500",
+    courseInstructor : "Simarjit"
+}
+//console.log(course.courseInstructor); // not recomended for repeat use
+//const {courseInstructor} = course; //recmended
+//console.log(courseInstructor);
+//const {courseInstructor : teacher} = course;  // also recmended  access courseInstructor as teacher
+//console.log(teacher);
