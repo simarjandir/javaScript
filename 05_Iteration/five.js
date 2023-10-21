@@ -17,6 +17,9 @@ const coding=["c++","js","java","asp"];
 //     //console.log(item , index, arr);
 // })
 
+
+// array of objects forEach
+
 const myCoding=[
     {
         language : "JavaScript",
